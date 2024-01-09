@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+:root {
+  --green: #90ff00;
+}
+
+.text-grotesk {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
